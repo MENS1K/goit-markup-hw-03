@@ -12,6 +12,8 @@
   --accent-color: #2196f3;
   --second-title-color: #ffffff;
   --card-set-gap: 30px;
+  --padding-portfolio: 24px;
+  --padding-section: 94px;
 }
 p,
 h1,
@@ -182,8 +184,8 @@ body {
 }
 /* Преимущества */
 .benefits {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
 }
 .benefits-list {
   display: flex;
@@ -201,11 +203,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  text-align: left;
 }
 .benefits-desc {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-align: left;
+  margin-top: 10px;
 }
 /* Чем мы занимаемся */
 .work {
@@ -230,15 +235,15 @@ body {
 /* Наша команда  */
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
 }
 .team-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -309,8 +314,8 @@ body {
 
 /* Portfolio */
 .main-section {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: var(--padding-section);
+  padding-top: var(--padding-section);
 }
 .main-list {
   display: flex;
@@ -359,9 +364,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  margin-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-top: 20px;
+  padding-left: var(--padding-portfolio);
+  padding-right: var(--padding-portfolio);
 }
 .main-content-desc {
   font-size: 16px;
@@ -369,7 +374,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   margin-top: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: var(--padding-portfolio);
+  padding-right: var(--padding-portfolio);
   padding-bottom: 17px;
 }
