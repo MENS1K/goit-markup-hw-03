@@ -238,6 +238,7 @@ body {
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
 }
+
 .team-title {
   font-size: 36px;
   line-height: 1.17;
@@ -257,6 +258,10 @@ body {
 .team-list .team-item + .team-item {
   margin-left: 30px;
 }
+.team-wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-caption {
   font-weight: 500;
   font-size: 16px;
@@ -264,7 +269,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-top: 30px;
 }
 .team-desc {
   font-size: 16px;
@@ -272,7 +276,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 
 /* Footer */
@@ -353,11 +356,17 @@ body {
   margin-left: -30px;
   margin-bottom: -30px;
 }
+.content-wrap {
+  padding-top: 20px;
+  padding-left: var(--padding-portfolio);
+  padding-right: var(--padding-portfolio);
+  padding-bottom: 17px;
+  border: 1px solid #eeeeee;
+}
 .main-content-item {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 
 .main-content-title {
@@ -365,9 +374,6 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  padding-top: 20px;
-  padding-left: var(--padding-portfolio);
-  padding-right: var(--padding-portfolio);
 }
 .main-content-desc {
   font-size: 16px;
@@ -375,7 +381,4 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   margin-top: 4px;
-  padding-left: var(--padding-portfolio);
-  padding-right: var(--padding-portfolio);
-  padding-bottom: 17px;
 }
