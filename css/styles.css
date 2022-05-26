@@ -215,7 +215,7 @@ body {
 /* Чем мы занимаемся */
 .work {
   display: flex;
-  padding-bottom: 94px;
+  padding-bottom: var(--padding-section);
 }
 
 .work-title {
